@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+
+    <itemt
+        android:id="@+id/nav_bottom_project"
+        android:title="@string/title_bottom_project"
+        android:icon="@mipmap/ic_project_gray_24dp">
+    </itemt>
+
+    <item
+        android:id="@+id/nav_bottom_console"
+        android:title="@string/title_bottom_console"
+        android:icon="@mipmap/ic_console_gray_24dp">
+    </item>
+
+    <item
+        android:id="@+id/nav_bottom_equitment"
+        android:title="@string/title_bottom_equitment"
+        android:icon="@mipmap/ic_equitment_gray_24dp" />
+</menu>

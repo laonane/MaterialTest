@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--checkbehavior=single表示所有的item只能单选-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_personal_info"
+            android:icon="@mipmap/ic_personal_info_32px"
+            android:title="个人资料"/>
+        <item
+            android:id="@+id/nav_business_management"
+            android:icon="@mipmap/ic_business_management_32px"
+            android:title="管理企业"/>
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@mipmap/ic_change_password_32px"
+            android:title="修改密码"/>
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@mipmap/ic_feedback_32px"
+            android:title="意见反馈"/>
+        <item
+            android:id="@+id/nav_manual"
+            android:icon="@mipmap/ic_manual_32px"
+            android:title="使用手册"/>
+        <item
+            android:id="@+id/nav_hardware_manual"
+            android:icon="@mipmap/ic_hardware_manual_32px"
+            android:title="硬件手册"/>
+        <item
+            android:id="@+id/nav_service_terims"
+            android:icon="@mipmap/ic_service_terims_32px"
+            android:title="服务条款"/>
+        <item
+            android:id="@+id/nav_about_me"
+            android:icon="@mipmap/ic_about_me_32px"
+            android:title="关于我们"/>
+        <item
+            android:id="@+id/nav_clear_cache"
+            android:icon="@mipmap/ic_clear_cache_32px"
+            android:title="清除缓存"/>
+    </group>
+</menu>
